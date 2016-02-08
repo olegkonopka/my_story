@@ -6,6 +6,7 @@ class PagesController < ApplicationController
   end
 
   def profile
+  	@posts=Post.all
   end
 
   def about
