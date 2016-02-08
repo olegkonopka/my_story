@@ -20,5 +20,6 @@ Rails.application.routes.draw do
  
    root 'pages#index'
   resources :user
+   resources :posts
 
 end
